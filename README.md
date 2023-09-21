@@ -96,15 +96,15 @@ Tervetuloa minun Full Stack repooni missä näkyy kattavasti kaikki harjoitukset
 | Tehtävä 6.1          | [Harjoitus 6.1 Postman PDF](Harjoitukset6/Tehtävä6.1/Postman.pdf)<br> Sisältää seuraavat: <br>GET-metodi, kaikki<br>GET-metodi, yksi<br>DELETE-metodi<br>PUT-pyyntö<br>POST-pyyntö |
 | Tehtävä 6.2          | [Harjoitus 6.2 index.js](Harjoitukset6/Tehtävä6.2/index.js)  |
 | Tehtävä 6.2          | [Harjoitus 6.2 logs.txt](Harjoitukset6/Tehtävä6.2/logs.txt)  |
-| Tehtävä 6.2          | [Harjoitus 6.2 Postman pyynnöt aika näkyen](Harjoitukset6/Tehtävä6.2/Postmanpyynnötaika näkyen.JPG)  |
+| Tehtävä 6.2          | [Harjoitus 6.2 Postman pyynnöt aika näkyen](Harjoitukset6/Tehtävä6.2/Postmanpyynnötaikanäkyen.JPG)  |
 
 ## Harjoitukset 7
 
 | Tehtävä         | Linkki tiedostoon                           |
 |-----------------|--------------------------------------------|
-| Tehtävä 7.1          | [Harjoitus 7.1 Oman tietokannan luominen](Harjoitukset7/Tehtävä7.1/Add Own Data.JPG)  |
-| Tehtävä 7.1          | [Harjoitus 7.1 Kirsin luominen tietokantaan](Harjoitukset7/Tehtävä7.1/Kirsinlisääminen tietokantaan.JPG)  |
-| Tehtävä 7.2          | [Harjoitus 7.2 Oma funktion käyttäminen sekä korjaaminen](Harjoitukset7/Tehtävä7.2/Omafunktion käyttäminensekäkorjaaminen..JPG)  |
+| Tehtävä 7.1          | [Harjoitus 7.1 Oman tietokannan luominen](Harjoitukset7/Tehtävä7.1/AddOwnData.JPG)  |
+| Tehtävä 7.1          | [Harjoitus 7.1 Kirsin luominen tietokantaan](Harjoitukset7/Tehtävä7.1/Kirsinlisääminentietokantaan.JPG)  |
+| Tehtävä 7.2          | [Harjoitus 7.2 Oma funktion käyttäminen sekä korjaaminen](Harjoitukset7/Tehtävä7.2/Omafunktionkäyttäminensekäkorjaaminen..JPG)  |
 | Tehtävä 7.2          | [Harjoitus 7.2 Person](Harjoitukset7/Tehtävä7.2/Persons.JPG)  |
 | Tehtävä 7.2          | [Harjoitus 7.2 db.users.update](Harjoitukset7/Tehtävä7.2/db.users.update.JPG)  |
 | Tehtävä 7.2          | [Harjoitus 7.2 testData.find().limit(2)](Harjoitukset7/Tehtävä7.2/testData.find.JPG)  |
