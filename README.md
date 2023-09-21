@@ -1,6 +1,6 @@
 # Full Stack 
 
-Tervetuloa minun Full Stack repooni missä näkyy kattavasti kaikki harjoitukset mitkä olen tehnyt ja kurssi kattaa monipuolisesti seuraavat asiat:
+Tervetuloa minun Full Stack repooni missä näkyy kattavasti kaikki harjoitukset mitkä olen tehnyt ja kattaa monipuolisesti seuraavat asiat:
 
 - Web toimintaympäristönä
 - JavaScript - Perusteet
