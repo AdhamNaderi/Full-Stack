@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="2-6.css">
+  <title>Tehtava 2-6</title>
+  <script src="./Tehtava2.6.js" defer></script>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    form {
+      text-align: center;
+    }
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px; 
+    }
+    label {
+      font-weight: bold;
+      color: #333;
+    }
+    input[type="number"] {
+      width: 50px;
+      padding: 5px;
+      margin: 5px;
+    }
+    button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <form id="speed-calculator" onsubmit="return false" ;>
+    <fieldset>
+      <legend>Vahtilaskin</legend>
+      <label>Tunnit</label>
+      <input type="number" id="hours" placeholder="0" min="0" />
+      <label>Minuutit</label>
+      <input type="number" id="minutes" placeholder="0" min="0" max="59" />
+      <label>Sekunnit</label>
+      <input type="number" id="seconds" placeholder="0" min="0" max="59" />
+      <label>Kilometrit</label>
+      <input type="number" id="kilometers" placeholder="1" min="1" /><br>
+      <button type="submit" onclick="submitForm(hours.value, minutes.value, seconds.value, kilometers.value)">Calculate</button>
+      <div id = "result"></div>
+    </fieldset> 
+  </form>
+</body>
+</html>

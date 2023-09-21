@@ -1,0 +1,46 @@
+Tarkastele koodia ja kerro mitä tapahtuu:
+
+const print = (str, taskTime) => {
+  setTimeout(function() {
+    console.log(`${str} finished!`)
+  }, taskTime)
+}
+
+const execute = (str, taskTime, callback)  => {  
+  callback(str, taskTime)
+}
+
+console.log("Task1 to execution...")
+execute('Task1', 2000, print)
+
+console.log("Task2 to execution...")
+execute('Task2', 2000, print)
+
+console.log("Task3 to execution...")
+execute('Task3', 500, print)
+
+console.log("Last code line executed!")
+
+----------------------------------------------------------------------------------------------------
+Print()- ja execute()-funktioita kutsutaan eri merkkijonoilla ja tehtävillä.
+
+Print()-funktio välitetään execute():lle takaisinkutsuna.
+
+Execute()-kutsua print():tä käyttäen merkkijonoa ja tehtäväaikaa argumentteina.
+setTimeout() käytetään print():ssä viestien kirjaamiseen konsoliin määritetyn tehtävän ajan kuluttua.
+
+Tämä tarkoittaa, että viestejä ei kirjata lokiin heti, vaan kunkin print()-kutsun määritetyn ajan kuluttua.
+
+Koodi kirjaa "Tehtävä1 suoritukseen...", "Tehtävä2 suoritukseen...", "Tehtävä3 suoritukseen..." ja "Viimeinen koodirivi suoritettu!" heti.
+
+"Tehtävä 3 valmis!", "Tehtävä1 valmis!" ja "Tehtävä 2 valmis!" kirjataan lokiin, kun määritetyt tehtäväajat ovat kuluneet jokaiselle print()-kutsulle.
+
+Elikkä koodi tulostaa seuraavat:
+
+Task1 to execution...
+Task2 to execution...
+Task3 to execution...
+Last code line executed!
+Task3 finished!
+Task1 finished!
+Task2 finished!

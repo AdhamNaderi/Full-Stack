@@ -1,0 +1,44 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #search-form {
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  #name-input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    width: 300px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  #name-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  #name-list li {
+    padding: 5px;
+  }
+  
+  .highlight {
+    background-color: #f0f0f0;
+  }
+  

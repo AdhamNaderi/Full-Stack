@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Lady Gaga Concert</title>
+</head>
+
+<body>
+<p>OMG - Lady Gaga start singing!</p>
+<script>
+var repeats = 3;
+
+setInterval(function() {
+  if (repeats <= 0) return;
+  var p = document.createElement("p");
+  p.innerHTML = "NICE - fireworks!";
+  document.body.appendChild(p);
+  repeats--;
+}, 5000);
+</script>
+<script>
+setTimeout(function() {
+  var p = document.createElement("p");
+  p.innerHTML = "WOW - It was the best concert in my life....";
+  document.body.appendChild(p);
+}, 20000);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+
+  legend {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  .num {
+    width: 30%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .divider {
+    grid-column: span 2;
+    height: 10px;
+  }
+
+  .points, .grade {
+    font-weight: bold;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+
+  .error {
+    color: red;
+    font-weight: bold;
+  }

@@ -1,0 +1,49 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+#gallery img {
+  display: none;
+}
+
+#gallery img.active {
+  display: inline;
+  margin: auto;
+  width: 26.5%;
+  border-radius: 3%;
+}
+
+ul {
+  background: rgb(108, 168, 168);
+  padding-left: 80px;
+  padding-right: 0;
+  position: relative;
+  width: 22%;
+}
+
+li {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  column-gap: -50px;
+  float: none;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(120, 129, 142);
+}

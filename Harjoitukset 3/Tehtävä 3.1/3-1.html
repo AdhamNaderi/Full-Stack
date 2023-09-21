@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="3-1.css">
+    <title>Tehtavä 3.1</title>
+</head>
+<h1>Tehtävä 3.1</h1>
+<body>
+  <div id="navbar">
+    <ul>
+      <li><a href="#" onclick="showImage('image-1')">IMAGE 1</a></li>
+      <li><a href="#" onclick="showImage('image-2')">IMAGE 2</a></li>
+      <li><a href="#" onclick="showImage('image-3')">IMAGE 3</a></li>
+      <li><a href="#" onclick="showImage('image-4')">IMAGE 4</a></li>
+      <li><a href="#" onclick="showImage('image-5')">IMAGE 5</a></li>
+      <li><a href="#" onclick="showImage('image-6')">IMAGE 6</a></li>
+      <li><a href="#" onclick="showImage('image-7')">IMAGE 7</a></li>
+    </ul>
+  </div>
+  <div id="gallery">
+    <img src="1.jpg" id="image-1" class="active" />
+    <img src="2.jpg" id="image-2" />
+    <img src="3.jpg" id="image-3" />
+    <img src="4.avif" id="image-4" />
+    <img src="5.jpeg" id="image-5" />
+    <img src="6.webp" id="image-6" />
+    <img src="7.jpg" id="image-7" />
+  </div> 
+</html>
+<script>function showImage(imageId) {
+  const images = document.querySelectorAll('#gallery img');
+  images.forEach(image => {
+    image.classList.remove('active');
+  });
+  const image = document.querySelector(`#${imageId}`);
+  image.classList.add('active');
+}
+</script> 
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Taulukon käsittely JavaScriptillä</title>
+</head>
+<body>
+  <h1>Taulukon käsittely JavaScriptillä</h1>
+  <hr> 
+  <h1>Tulokset</h1>
+  <div id="tulos"></div>
+  
+  <script>
+    window.onload = function() {
+      let taulukko = [11, 22, 33, 44];
+      let summa = 0;
+      let lukumaara = 0;
+      let keskiarvo;
+      let tulosrivit = '';
+
+      for (let luku of taulukko) {
+        summa += luku;
+        lukumaara++;
+        tulosrivit += `<p>Luku ${lukumaara}: ${luku}</p>`;
+      }
+
+      if (lukumaara > 0) {
+        keskiarvo = (summa / lukumaara).toFixed(1);
+      } else {
+        keskiarvo = 'Ei arvoja';
+      }
+
+      document.getElementById('tulos').innerHTML = `
+        <p>Taulukon alkioiden lukumäärä: ${lukumaara}</p>
+        <p>Taulukon alkioiden summa: ${summa}</p>
+        <p>Keskiarvo: ${keskiarvo}</p>
+        ${tulosrivit}
+      `;
+    };
+  </script>
+</body>
+</html>

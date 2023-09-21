@@ -1,0 +1,22 @@
+#button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #button:hover {
+    background-color: #0056b3;
+  }
+  
+  #hcplist {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #hcplist li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  

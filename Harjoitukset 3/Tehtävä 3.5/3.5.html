@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="3.5.css">
+    <title>Tehtävä 3.5</title>
+    <head>
+        <title>Juhlaväri</title>
+        <link rel="stylesheet" href="3-5.css">
+        <head>
+            <title>Juhlaväri</title>
+          </head>
+          <body>
+            <fieldset>
+              <legend>Valitse väri</legend>
+              <h1>Valitse juhlaväri:</h1>
+              <select id="color-select">
+                <option value="#ff0000">Punainen</option>
+                <option value="#0000ff">Sininen</option>
+                <option value="#00ff00">Vihreä</option>  
+              </select>
+              <h1>Mikä juhla?</h1>
+              <input type="text" id="party-input">
+              <button onclick="changeColour()">Vaihda valittu taustaväri</button>
+              <div id="result-area">
+                <h2>Tulosalue</h2>
+                <div id="party-text"></div>
+                <p id="color-code"></p>
+              </div>
+            </fieldset>
+            <script>
+              var colorSelect = document.getElementById("color-select");
+              var partyInput = document.getElementById("party-input");
+              var resultArea = document.getElementById("result-area");
+              var partyText = document.getElementById("party-text");
+              var colorCode = document.getElementById("color-code");
+          
+              partyInput.addEventListener("input", function() {
+                var party = this.value.replace(/[^a-zA-Z]/g, "");
+                partyText.textContent = party;
+              });
+          
+              function changeColour() {
+                var color = colorSelect.value;
+          
+                resultArea.style.backgroundColor = color;
+                colorCode.textContent = "Colour code " + color;
+              }
+            </script>
+          </body>
+          </html>

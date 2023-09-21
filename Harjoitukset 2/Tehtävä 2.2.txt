@@ -1,0 +1,33 @@
+Tarkastele koodi ja kerro mitä tapahtuu missäkin vaiheessa:
+
+const myFunctionWithCallback = (p1, p2, callback) => {
+  return callback(p1, p2)
+}
+
+const myFunc = (p1, p2) => `Pitsa ${p1} ja ${p2}`
+const result = myFunctionWithCallback('kinkulla', 'juustolla', myFunc)
+console.log(result)
+
+1.)
+myFunc-toiminto on määritetty. Se ottaa kaksi parametria p1 ja p2 ja palauttaa merkkijonon, jossa nämä kaksi parametria ovat osana.
+
+2.)
+
+myFunctionWithCallback-funktiota kutsutaan seuraavasti: myFunctionWithCallback('kinkkua', 'juustoa', myFunc). Tässä p1 on asetettu arvoon 'kinkku', p2:ksi 'juusto' ja takaisinsoitto on myFunc.
+
+3.)
+
+myFunctionWithCallback-funktio palauttaa takaisinkutsun (p1, p2) lausekkeen arvon. Koska takaisinsoitto on myFunc, tämä tarkoittaa, että myFunc('kinkku', 'juusto') suoritetaan.
+
+4.)
+
+myFunc-toiminto suorittaa ja palauttaa "Pizza kinkulla ja juustolla".
+
+5.)
+
+Tämä string tallennetaan tulosmuuttujaan.
+
+6.)
+
+Lopuksi tulos tulostetaan konsoliin console.log(result).
+

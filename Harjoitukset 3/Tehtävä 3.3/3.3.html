@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="3.3.css">
+  <title>Tehtävä 3.3</title>
+</head>
+<body>
+    
+  <form>
+    <fieldset>
+        <legend>Arviointi</legend>
+        <div class="grid">
+          <label for="test1">Tehtava 1</label>
+          <label for="test2">Tehtava 2</label>
+          <label for="test3">Tehtava 3</label>
+          <label for="test4">Tehtava 4</label>
+          <input class="num" id="test1" onBlur="calc()">
+          <input class="num" id="test2" onBlur="calc()">
+          <input class="num" id="test3" onBlur="calc()">
+          <input class="num" id="test4" onBlur="calc()">
+          <div class="divider"></div>
+          <label class="points">Pisteet: </label>
+          <span id="totalPoints" class="points"></span>
+
+          <label class="grade">Arvosana: </label>
+          <span id="grade" class="grade"></span>
+
+          <label class="points"></label>
+          <span id="totalPoints" class="points"></span>
+          <label class="grade"></label>
+          <span id="grade" class="grade"></span>
+          <span id="error" class="error"></span>
+        </div>
+    </fieldset>
+</form>
+
+  <script>
+    function calc() {
+    var test1 = document.getElementById('test1');
+    var test2 = document.getElementById('test2');
+    var test3 = document.getElementById('test3');
+    var test4 = document.getElementById('test4');
+    var totalPoints = document.getElementById('totalPoints');
+    var grade = document.getElementById('grade');
+    var error = document.getElementById('error');
+
+    var value1 = parseInt(test1.value);
+    var value2 = parseInt(test2.value);
+    var value3 = parseInt(test3.value);
+    var value4 = parseInt(test4.value);
+
+    if (isNaN(value1) || isNaN(value2) || isNaN(value3) || isNaN(value4) || value1 > 6 || value2 > 6 || value3 > 6 || value4 > 6) {
+        error.innerHTML = 'VIRHE!';
+        totalPoints.innerHTML = '';
+        grade.innerHTML = '';
+    } else {
+        error.innerHTML = '';
+        var total = value1 + value2 + value3 + value4;
+        totalPoints.innerHTML = total;
+        if (total >= 22) {
+        grade.innerHTML = '5';
+        } else if (total >= 20) {
+        grade.innerHTML = '4';
+        } else if (total >= 18) {
+        grade.innerHTML = '3';
+        } else if (total >= 16) {
+        grade.innerHTML = '2';
+        } else if (total >= 13) {
+        grade.innerHTML = '1';
+        } else {
+        grade.innerHTML = '0';
+        }
+        }
+    }
+
+  </script>
+</body>
+</html>
+</body>

@@ -1,0 +1,47 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+#talot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.taloContainer {
+    width: 50%;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+}
+.taloImage {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    margin: 10px;
+}
+p.header {
+    font-weight: bold;
+    margin: 10px;
+}
+.text {
+    font-style: italic;
+}
+
+.taloContainer {
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+
+  .taloContainer {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    transition: transform 0.2s;
+  }
+  
+  .taloContainer:hover {
+    transform: scale(1.05);
+  }
+  
