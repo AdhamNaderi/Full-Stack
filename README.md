@@ -48,16 +48,16 @@ Tervetuloa minun Full Stack repooni missä näkyy kattavasti kaikki harjoitukset
 | Tehtävä 3.1          | [Harjoitus 3.1.html](Harjoitukset3/Tehtävä3.1/3-1.html)                    |
 | Tehtävä 3.1          | [Harjoitus 3.1.JPG](Harjoitukset3/Tehtävä3.1/Tehtävä3.1.JPG)                    |
 | Tehtävä 3.2          | [Harjoitus 3.2.html](Harjoitukset3/Tehtävä3.2/3.2.html)                    |
-| Tehtävä 3.2          | [Harjoitus 3.2.JPG](Harjoitukset3/Tehtävä3.2/Tehtävä3.2 Osa 1.JPG)                    |
-| Tehtävä 3.2          | [Harjoitus 3.2.JPG](Harjoitukset3/Tehtävä3.2/Tehtävä3.2 Osa 2.JPG)                    |
+| Tehtävä 3.2          | [Harjoitus 3.2.JPG](Harjoitukset3/Tehtävä3.2/Tehtävä3.2Osa1.JPG)                    |
+| Tehtävä 3.2          | [Harjoitus 3.2.JPG](Harjoitukset3/Tehtävä3.2/Tehtävä3.2Osa2.JPG)                    |
 | Tehtävä 3.3          | [Harjoitus 3.3.html](Harjoitukset3/Tehtävä3.3/3.3.html)                    |
 | Tehtävä 3.3          | [Harjoitus 3.3 Oikea arvo.JPG](Harjoitukset3/Tehtävä3.3/Oikein.JPG)                    |
 | Tehtävä 3.3          | [Harjoitus 3.3 Virheellinen arvo.JPG](Harjoitukset3/Tehtävä3.3/Virhe.JPG)                    |
 | Tehtävä 3.4          | [Harjoitus 3.4.html](Harjoitukset3/Tehtävä3.4/3.4.html)                    |
-| Tehtävä 3.4          | [Harjoitus 3.4.JPG](Harjoitukset3/Tehtävä3.4/Tehtävä3.4 Osa 1.JPG)                    |
+| Tehtävä 3.4          | [Harjoitus 3.4.JPG](Harjoitukset3/Tehtävä3.4/Tehtävä3.4Osa1.JPG)                    |
 | Tehtävä 3.5          | [Harjoitus 3.5.html](Harjoitukset3/Tehtävä3.5/3.5.html)                    |
-| Tehtävä 3.5          | [Harjoitus 3.5.JPG](Harjoitukset3/Tehtävä3.5/Tehtävä3.5 Osa 1.JPG)                    |
-| Tehtävä 3.5          | [Harjoitus 3.5.JPG](Harjoitukset3/Tehtävä3.5/Tehtävä3.5 Osa 2.JPG)                    |
+| Tehtävä 3.5          | [Harjoitus 3.5.JPG](Harjoitukset3/Tehtävä3.5/Tehtävä3.5Osa1.JPG)                    |
+| Tehtävä 3.5          | [Harjoitus 3.5.JPG](Harjoitukset3/Tehtävä3.5/Tehtävä3.5Osa2.JPG)                    |
 
 ## Harjoitukset 4
 
@@ -65,28 +65,28 @@ Tervetuloa minun Full Stack repooni missä näkyy kattavasti kaikki harjoitukset
 |-----------------|--------------------------------------------|
 | Tehtävä 4.1          | [Harjoitus 4.1.html](Harjoitukset4/Tehtävä4.1/4.1.html)  |
 | Tehtävä 4.1          | [Harjoitus 4.1.js](Harjoitukset4/Tehtävä4.1/4.1.js)  |
-| Tehtävä 4.1          | [Harjoitus 4.1.PNG](Harjoitukset4/Tehtävä4.1/Tehtävä4.1 Kokonaan.png)  |
+| Tehtävä 4.1          | [Harjoitus 4.1.PNG](Harjoitukset4/Tehtävä4.1/Tehtävä4.1Kokonaan.png)  |
 | Tehtävä 4.2          | [Harjoitus 4.2.html](Harjoitukset4/Tehtävä4.2/4.2.html)  |
 | Tehtävä 4.2          | [Harjoitus 4.2.js](Harjoitukset4/Tehtävä4.2/4.2.js)  |
-| Tehtävä 4.2          | [Harjoitus 4.2 Alle 200m^2](Harjoitukset4/Tehtävä4.2/Alle 200m^2.JPG)  |
-| Tehtävä 4.2          | [Harjoitus 4.2 Alle 1 000 000€](Harjoitukset4/Tehtävä4.2/Alle 1 000 000€.JPG)  |
-| Tehtävä 4.2          | [Harjoitus 4.2 Alle 200m^2 & 1 000 000€](Harjoitukset4/Tehtävä4.2/Alle 200m^2 & 1 000 000€.JPG)  |
+| Tehtävä 4.2          | [Harjoitus 4.2 Alle 200m^2](Harjoitukset4/Tehtävä4.2/Alle200m^2.JPG)  |
+| Tehtävä 4.2          | [Harjoitus 4.2 Alle 1 000 000€](Harjoitukset4/Tehtävä4.2/Alle1000000€.JPG)  |
+| Tehtävä 4.2          | [Harjoitus 4.2 Alle 200m^2 & 1 000 000€](Harjoitukset4/Tehtävä4.2/Alle200m^2&1000000€.JPG)  |
 | Tehtävä 4.3          | [Harjoitus 4.3.html](Harjoitukset4/Tehtävä4.3/4.3.html)  |
 | Tehtävä 4.3          | [Harjoitus 4.3.js](Harjoitukset4/Tehtävä4.3/4.3.js)  |
-| Tehtävä 4.3          | [Harjoitus 4.3 A kirjaimella alkavat](Harjoitukset4/Tehtävä4.3/A kirjaimella alkavat.JPG)  |
+| Tehtävä 4.3          | [Harjoitus 4.3 A kirjaimella alkavat](Harjoitukset4/Tehtävä4.3/Akirjaimellaalkavat.JPG)  |
 
 ## Harjoitukset 5
 
 | Tehtävä         | Linkki tiedostoon                           |
 |-----------------|--------------------------------------------|
 | Tehtävä 5.1          | [Harjoitus 5.1.js](Harjoitukset5/Tehtävä5.1/5.1.js)  |
-| Tehtävä 5.1          | [Harjoitus 5.1.JPG](Harjoitukset5/Tehtävä5.1/node 5.1.JPG)  |
+| Tehtävä 5.1          | [Harjoitus 5.1.JPG](Harjoitukset5/Tehtävä5.1/node5.1.JPG)  |
 | Tehtävä 5.2          | [Harjoitus 5.2.js](Harjoitukset5/Tehtävä5.2/5.2.js)  |
-| Tehtävä 5.2          | [Harjoitus 5.2.JPG](Harjoitukset5/Tehtävä5.2/node 5.2.JPG)  |
+| Tehtävä 5.2          | [Harjoitus 5.2.JPG](Harjoitukset5/Tehtävä5.2/node5.2.JPG)  |
 | Tehtävä 5.3          | [Harjoitus 5.3.js](Harjoitukset5/Tehtävä5.3/5.3.js)  |
-| Tehtävä 5.3          | [Harjoitus 5.3.JPG](Harjoitukset5/Tehtävä5.3/node 5.3.JPG)  |
+| Tehtävä 5.3          | [Harjoitus 5.3.JPG](Harjoitukset5/Tehtävä5.3/node5.3.JPG)  |
 | Tehtävä 5.4          | [Harjoitus 5.4.js](Harjoitukset5/Tehtävä5.4/index.js)  |
-| Tehtävä 5.4          | [Harjoitus 5.4.JPG](Harjoitukset5/Tehtävä5.4/5.4 paketti.JPG)  |
+| Tehtävä 5.4          | [Harjoitus 5.4.JPG](Harjoitukset5/Tehtävä5.4/5.4paketti.JPG)  |
 
 ## Harjoitukset 6
 
