@@ -20,7 +20,7 @@ Tervetuloa minun Full Stack repooni missä näkyy kattavasti kaikki harjoitukset
 
 | Tehtävä         | Linkki tiedostoon                           |
 |-----------------|--------------------------------------------|
-| Tehtävä 1.1          | [Harjoitus 1.1 .html](Harjoitukset 1/Tehtävä 1.1.html)  |
+| Tehtävä 1.1          | [Harjoitus 1.1 .html](Harjoitukset1/Tehtävä1.1.html)  |
 | Tehtävä 1.2          | [Harjoitus 1.2 .JPG](Harjoitukset 1/Tehtävä 1.2.JPG)                    |
 | Tehtävä 1.3          | [Harjoitus 1.3 .js](Harjoitukset 1/Tehtävä 1.3.js)                    |
 | Tehtävä 1.4          | [Harjoitus 1.4 .js](Harjoitukset 1/Tehtävä 1.4.js)                    |
