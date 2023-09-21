@@ -96,24 +96,24 @@ Tervetuloa minun Full Stack repooni missä näkyy kattavasti kaikki harjoitukset
 | Tehtävä 6.1          | [Harjoitus 6.1 Postman PDF](Harjoitukset6/Tehtävä6.1/Postman.pdf)<br> Sisältää seuraavat: <br>GET-metodi, kaikki<br>GET-metodi, yksi<br>DELETE-metodi<br>PUT-pyyntö<br>POST-pyyntö |
 | Tehtävä 6.2          | [Harjoitus 6.2 index.js](Harjoitukset6/Tehtävä6.2/index.js)  |
 | Tehtävä 6.2          | [Harjoitus 6.2 logs.txt](Harjoitukset6/Tehtävä6.2/logs.txt)  |
-| Tehtävä 6.2          | [Harjoitus 6.2 Postman pyynnöt aika näkyen](Harjoitukset6/Tehtävä6.2/Postman pyynnöt aika näkyen.JPG)  |
+| Tehtävä 6.2          | [Harjoitus 6.2 Postman pyynnöt aika näkyen](Harjoitukset6/Tehtävä6.2/Postmanpyynnötaika näkyen.JPG)  |
 
 ## Harjoitukset 7
 
 | Tehtävä         | Linkki tiedostoon                           |
 |-----------------|--------------------------------------------|
 | Tehtävä 7.1          | [Harjoitus 7.1 Oman tietokannan luominen](Harjoitukset7/Tehtävä7.1/Add Own Data.JPG)  |
-| Tehtävä 7.1          | [Harjoitus 7.1 Kirsin luominen tietokantaan](Harjoitukset7/Tehtävä7.1/Kirsin lisääminen tietokantaan.JPG)  |
-| Tehtävä 7.2          | [Harjoitus 7.2 Oma funktion käyttäminen sekä korjaaminen](Harjoitukset7/Tehtävä7.2/Oma funktion käyttäminen sekä korjaaminen..JPG)  |
+| Tehtävä 7.1          | [Harjoitus 7.1 Kirsin luominen tietokantaan](Harjoitukset7/Tehtävä7.1/Kirsinlisääminen tietokantaan.JPG)  |
+| Tehtävä 7.2          | [Harjoitus 7.2 Oma funktion käyttäminen sekä korjaaminen](Harjoitukset7/Tehtävä7.2/Omafunktion käyttäminensekäkorjaaminen..JPG)  |
 | Tehtävä 7.2          | [Harjoitus 7.2 Person](Harjoitukset7/Tehtävä7.2/Persons.JPG)  |
 | Tehtävä 7.2          | [Harjoitus 7.2 db.users.update](Harjoitukset7/Tehtävä7.2/db.users.update.JPG)  |
 | Tehtävä 7.2          | [Harjoitus 7.2 testData.find().limit(2)](Harjoitukset7/Tehtävä7.2/testData.find.JPG)  |
 | Tehtävä 7.2          | [Harjoitus 7.2 db.testData.remove{()}](Harjoitukset7/Tehtävä7.2/db.testData.remove.JPG)  |
 | Tehtävä 7.3          | [Harjoitus 7.3 index.js](Harjoitukset7/Tehtävä7.3/index.js)  |
 | Tehtävä 7.3          | [Harjoitus 7.3 REST Client](Harjoitukset7/Tehtävä7.3/RESTClient.rest)  |
-| Tehtävä 7.3          | [Harjoitus 7.3 REST Client POST](Harjoitukset7/Tehtävä7.3/REST API/POST.JPG)  |
-| Tehtävä 7.3          | [Harjoitus 7.3 REST Client DELETE](Harjoitukset7/Tehtävä7.3/REST API/DELETE.JPG)  |
-| Tehtävä 7.3          | [Harjoitus 7.3 REST Client GET](Harjoitukset7/Tehtävä7.3/REST API/GET.JPG)  |
+| Tehtävä 7.3          | [Harjoitus 7.3 REST Client POST](Harjoitukset7/Tehtävä7.3/RESTAPI/POST.JPG)  |
+| Tehtävä 7.3          | [Harjoitus 7.3 REST Client DELETE](Harjoitukset7/Tehtävä7.3/RESTAPI/DELETE.JPG)  |
+| Tehtävä 7.3          | [Harjoitus 7.3 REST Client GET](Harjoitukset7/Tehtävä7.3/RESTAPI/GET.JPG)  |
 
 ## Harjoitukset 8
 
@@ -125,7 +125,7 @@ Tervetuloa minun Full Stack repooni missä näkyy kattavasti kaikki harjoitukset
 | Tehtävä 8.1          | [Todo REST Client POST](Harjoitukset8/Todo/POST_todo.JPG)  |
 | Tehtävä 8.1          | [Todo REST Client GET](Harjoitukset8/Todo/GET_todo.JPG)  |
 | Tehtävä 8.1          | [Todo REST Client DELETE](Harjoitukset8/Todo/DELETE_todo.JPG)  |
-| Tehtävä 8.1          | [Todo REST Client Lauseen keskikohdasta poistettu "Sana"](Harjoitukset8/Todo/Toimiva ToDo.JPG)  |
+| Tehtävä 8.1          | [Todo REST Client Lauseen keskikohdasta poistettu "Sana"](Harjoitukset8/Todo/ToimivaToDo.JPG)  |
 | Tehtävä 8.2          | [Todo Appin Edit nappi ja lopullinen tulos näyttäen MongoDB samaan aikaan](Harjoitukset8/Todo/POST_todo.JPG)  |
 
 
